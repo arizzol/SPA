@@ -48,7 +48,7 @@ spa.shell = (function () {
 	//------------------- BEGIN PUBLIC METHODS -------------------
 	// Begin Public method /initModule/
 	initModule = function ( $container ) {
-		state.Map.$container = $container;
+		stateMap.$container = $container;
 		$container.html( configMap.main_html );
 		setJqueryMap();
 	};
